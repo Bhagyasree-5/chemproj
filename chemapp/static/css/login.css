@@ -1,0 +1,55 @@
+/* Reset some basic elements */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    background-color: #4ca0af; /* Example background color */
+    color: white; /* Text color */
+    text-align: center; /* Center the text */
+    padding: 20px 0; /* Add some padding above and below the text */
+    width: 100%; /* Ensure it spans the full width */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+    position: fixed; /* Make the header fixed at the top */
+    top: 0; /* Position at the top */
+    left: 0; /* Align to the left */
+    z-index: 1000; /* Ensure it's above other content */
+}
+h2{
+    text-align: center;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+form p {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
